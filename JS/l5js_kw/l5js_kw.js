@@ -135,7 +135,7 @@
 // }
 
 
-
+                                                              //test git//
 
 
 
@@ -143,7 +143,7 @@
 // При відправці данних з форми, зберігати ім'я в localstorage, та переходити на index2.html.
 // На index2.html виводити записане в localstorage ім'я в div
 
-
+console.log()
 
 
 
