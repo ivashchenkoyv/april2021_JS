@@ -135,11 +135,7 @@
 // }
 
 
-
-
-
-
-
+                                                              //test git//
 
 
 
@@ -148,6 +144,27 @@
 // На index2.html виводити записане в localstorage ім'я в div
 
 
+let f1=document.forms.f1
+let nameInput=f1.name
+console.log(f1)
+
+
+f1.addEventListener('submit',(event)=> {
+    let name=nameInput.value
+    console.log(name)
+
+    let stringifyName=JSON.stringify(name)
+    localStorage.setItem('name',JSON.stringify(name))
+
+})
+
+let item=localStorage.getItem('name');
+let storage=document.getElementsByClassName('storage');
+console.log(storage)
+for (const itemElement of storage) {
+    itemElement.innerText='item'
+
+}
 
 
 
